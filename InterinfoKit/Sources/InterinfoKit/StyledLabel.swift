@@ -22,7 +22,7 @@ final public class StyledLabel: StyledBaseView {
     }
 
     
-    private lazy var dividerLineView: UIView = {
+    public lazy var dividerLineView: UIView = {
         let view = UIView()
         view.backgroundColor = Styled.Color.divider
         return view
