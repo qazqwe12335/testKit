@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class Styled {
+open class Styled {
     //  系統主題
     enum Mode: String {
         case Purple
