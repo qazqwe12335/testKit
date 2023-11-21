@@ -7,7 +7,7 @@
 
 import UIKit
 
-open class StyledLabel: StyledBaseView {
+final public class StyledLabel: StyledBaseView {
     public var content: String = "" {
         didSet {
             contentLabel.text = content.isEmpty ? " " : content
