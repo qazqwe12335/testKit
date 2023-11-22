@@ -10,7 +10,7 @@ import UIKit
 
 open class Styled {
     //  系統主題
-    enum Mode: String {
+    public enum Mode: String {
         case Purple
         case SkyBlue
         case LightPink
@@ -19,13 +19,13 @@ open class Styled {
     }
     
     //  圓角
-    enum CornerRadius {
+    public enum CornerRadius {
         /// CornerRadius: 12
         static let normal = CGFloat.init(12.0)
     }
     
     //  字體大小
-    enum FontSize {
+    public enum FontSize {
         /// FontSize: 28
         static let xxl = CGFloat.init(28.0)
         /// FontSize: 20
@@ -43,7 +43,7 @@ open class Styled {
     }
     
     //  系統色代碼
-    static let SystemColor: [Styled.Mode: UIColor] = [
+    public static let SystemColor: [Styled.Mode: UIColor] = [
         .Purple: UIColor(hex: 0x8779FF),
         .SkyBlue: UIColor(hex: 0x87CEEB),
         .LightPink: UIColor(hex: 0xFFB6C1),
@@ -52,7 +52,7 @@ open class Styled {
     ]
     
     //  系統副色代碼
-    static let SystemMinorColor: [Styled.Mode: UIColor] = [
+    public static let SystemMinorColor: [Styled.Mode: UIColor] = [
         .Purple: UIColor(hex: 0xF3F2FF),
         .SkyBlue: UIColor(hex: 0xF3FAFD),
         .LightPink: UIColor(hex: 0xFFF8F9),
@@ -61,7 +61,7 @@ open class Styled {
     ]
     
     ///  元件顏色
-    enum Color {
+    public enum Color {
         ///  字體顏色
         static let textDark = UIColor(hex: 0x000000)
         static let textNormal = UIColor(hex: 0x959595)
